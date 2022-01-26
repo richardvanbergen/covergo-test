@@ -4,7 +4,7 @@ plugin styling`
 </script>
 
 <template>
-  <section class="max-w-[80ch] my-20 mx-auto">
+  <section class="max-w-[80ch] mx-auto">
     <h2
       class="mt-12 mb-12 font-sans text-6xl font-extrabold leading-tight whitespace-pre-line"
       v-html="typographyHeadingPreformatted"

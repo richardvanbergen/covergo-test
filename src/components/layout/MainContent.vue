@@ -1,3 +1,3 @@
 <template>
-  <main class="flex-1"></main>
+  <main class="grid flex-1"><slot /></main>
 </template>
