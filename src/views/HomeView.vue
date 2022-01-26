@@ -1,12 +1,12 @@
 <script setup lang="ts">
-const typographyHeadingPreformatted = `Typography
+const typographyHeadingPreformatted = `Typo&shy;graphy
 plugin styling`
 </script>
 
 <template>
   <section class="max-w-[80ch] mx-auto">
     <h2
-      class="mt-12 mb-12 font-sans text-6xl font-extrabold leading-tight whitespace-pre-line"
+      class="mt-12 mb-12 font-sans text-6xl font-extrabold leading-tight whitespace-pre-line hy"
       v-html="typographyHeadingPreformatted"
     />
 
