@@ -1,11 +1,12 @@
 # covergo-test
 
-## Setup
+## Modifications to Setup
 
 * `yarn vue create` - Typescript, pinia, vue-router
 * Add tailwind css
 * Updated eslint prettier config to specify single quotes and remove semis
-* 
+* Removed existing CSS and page components, replaced with bare bones files for reference
+
 
 This template should help get you started developing with Vue 3 in Vite.
 
