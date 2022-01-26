@@ -8,8 +8,10 @@
 * Removed existing CSS and page components, replaced with bare bones files for reference
 * Added phosphor icons for quick icon set
 * Added toast notifications to quick uninterrupted user feedback
-
-
+* Implemented the typography plugin
+* Added some background colors
+* Added header, content and footer elements
+* Form styling
 
 This template should help get you started developing with Vue 3 in Vite.
 

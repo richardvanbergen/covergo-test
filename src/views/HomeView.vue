@@ -1,6 +1,10 @@
 <script setup lang="ts">
+import { notify } from '@/lib/notify'
+
 const typographyHeadingPreformatted = `Typo&shy;graphy
 plugin styling`
+
+notify('success', 'Homepage', 'Welcome to the homepage.')
 </script>
 
 <template>
@@ -81,6 +85,16 @@ plugin styling`
         animals Saruman's call?
       </p>
     </article>
+
+    <h2 class="mt-8 mb-4 font-sans text-6xl font-extrabold">Forms</h2>
+
+    <form>
+      <div class="flex flex-col gap-2">
+        <label for="name" class="block">Name</label>
+        <input type="text" id="name" name="name" placeholder="e.g. Jane Doe" />
+        <span class="text-red-600">You need a name.</span>
+      </div>
+    </form>
   </section>
 </template>
 
