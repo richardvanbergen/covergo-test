@@ -1,14 +1,37 @@
 <script setup lang="ts">
-import { notify } from '@/lib/notify'
-
 const typographyHeadingPreformatted = `Typo&shy;graphy
 plugin styling`
-
-notify('success', 'Homepage', 'Welcome to the homepage.')
 </script>
 
 <template>
   <section class="max-w-[80ch] mx-auto">
+    <h2 class="mt-8 mb-4 font-sans text-6xl font-extrabold">
+      Cust&shy;om styling
+    </h2>
+
+    <article class="test-typography">
+      <h2 class="mb-4 heading-lg">
+        Didn't melt fairer keep&shy;sakes since Fellow&shy;ship else&shy;where.
+        (head&shy;ing-lg)
+      </h2>
+      <h3 class="heading-md">
+        Tad survive ensnare joy mistake courtesy Bagshot Row. Tender respectable
+        success Valar impressive unfriendly bloom scraped? (head&shy;ing-md)
+      </h3>
+      <h4 class="heading-sm">
+        North valor overflowing sort Iáve mister kingly money? Curse you and all
+        the halflings! (heading-sm)
+      </h4>
+      <p>
+        Curse you and all the
+        <a href="https://www.googe.com" class="link">halflings (link)</a>!
+        Deserted anytime Lake-town burned caves balls. Smoked lthilien forbids
+        Thrain? Many that live deserve death. Some that die deserve life.
+        Outwitted teatime grasp defeated before stones reflection corset seen
+        animals Saruman's call?
+      </p>
+    </article>
+
     <h2
       class="mt-12 mb-12 font-sans text-6xl font-extrabold leading-tight whitespace-pre-line hy"
       v-html="typographyHeadingPreformatted"
@@ -57,33 +80,6 @@ notify('success', 'Homepage', 'Welcome to the homepage.')
         <li>Precious.</li>
         <li>Gaffer's!</li>
       </ul>
-    </article>
-
-    <h2 class="mt-8 mb-4 font-sans text-6xl font-extrabold">
-      Cust&shy;om styling
-    </h2>
-
-    <article class="test-typography">
-      <h2 class="mb-4 heading-lg">
-        Didn't melt fairer keep&shy;sakes since Fellow&shy;ship else&shy;where.
-        (head&shy;ing-lg)
-      </h2>
-      <h3 class="heading-md">
-        Tad survive ensnare joy mistake courtesy Bagshot Row. Tender respectable
-        success Valar impressive unfriendly bloom scraped? (head&shy;ing-md)
-      </h3>
-      <h4 class="heading-sm">
-        North valor overflowing sort Iáve mister kingly money? Curse you and all
-        the halflings! (heading-sm)
-      </h4>
-      <p>
-        Curse you and all the
-        <a href="https://www.googe.com" class="link">halflings (link)</a>!
-        Deserted anytime Lake-town burned caves balls. Smoked lthilien forbids
-        Thrain? Many that live deserve death. Some that die deserve life.
-        Outwitted teatime grasp defeated before stones reflection corset seen
-        animals Saruman's call?
-      </p>
     </article>
 
     <h2 class="mt-8 mb-4 font-sans text-6xl font-extrabold">Forms</h2>

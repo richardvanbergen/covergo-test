@@ -1,3 +1,9 @@
+<script setup lang="ts">
+import { notify } from '@/lib/notify'
+
+notify('success', 'About', 'Welcome to the about page.')
+</script>
+
 <template>
   <article
     class="flex self-center w-full max-w-lg p-12 justify-self-center place-content-center"
