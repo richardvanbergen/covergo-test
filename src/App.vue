@@ -1,26 +1,17 @@
 <script setup lang="ts">
-import { RouterLink, RouterView } from 'vue-router'
+import { RouterView } from 'vue-router'
+import ToastNotification from './components/layout/ToastNotification.vue'
+import MainHeader from './components/layout/MainHeader.vue'
+import MainFooter from './components/layout/MainFooter.vue'
+import LayoutContainer from './components/layout/LayoutContainer.vue'
 </script>
 
 <template>
-  <header>
-    <img
-      alt="Vue logo"
-      class="logo"
-      src="@/assets/logo.svg"
-      width="125"
-      height="125"
-    />
-
-    <div class="wrapper">
-      <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
-      </nav>
-    </div>
-  </header>
-
-  <RouterView />
+  <LayoutContainer>
+    <MainHeader />
+    <RouterView />
+    <MainFooter />
+  </LayoutContainer>
 </template>
 
 <style>
