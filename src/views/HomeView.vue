@@ -11,7 +11,7 @@ plugin styling`
     />
 
     <article class="typography-plugin">
-      <h1>Many that live deserve death. Some that die deserve life.</h1>
+      <h1>Many that live dese&shy;rve death. Some that die deserve life.</h1>
       <p>
         Woodlands payment <strong>Osgiliath tightening</strong>. Barad-dur
         follow belly comforts tender tough bell? Many that live deserve death.
@@ -55,15 +55,18 @@ plugin styling`
       </ul>
     </article>
 
-    <h2 class="mt-8 mb-4 font-sans text-6xl font-extrabold">Custom styling</h2>
+    <h2 class="mt-8 mb-4 font-sans text-6xl font-extrabold">
+      Cust&shy;om styling
+    </h2>
 
     <article class="test-typography">
       <h2 class="mb-4 heading-lg">
-        Didn't melt fairer keepsakes since Fellowship elsewhere. (heading-lg)
+        Didn't melt fairer keep&shy;sakes since Fellow&shy;ship else&shy;where.
+        (head&shy;ing-lg)
       </h2>
       <h3 class="heading-md">
         Tad survive ensnare joy mistake courtesy Bagshot Row. Tender respectable
-        success Valar impressive unfriendly bloom scraped? (heading-md)
+        success Valar impressive unfriendly bloom scraped? (head&shy;ing-md)
       </h3>
       <h4 class="heading-sm">
         North valor overflowing sort Iáve mister kingly money? Curse you and all
