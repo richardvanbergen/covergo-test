@@ -6,6 +6,9 @@
 * Add tailwind css
 * Updated eslint prettier config to specify single quotes and remove semis
 * Removed existing CSS and page components, replaced with bare bones files for reference
+* Added phosphor icons for quick icon set
+* Added toast notifications to quick uninterrupted user feedback
+
 
 
 This template should help get you started developing with Vue 3 in Vite.

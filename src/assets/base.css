@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-  @apply font-sans font-normal leading-normal text-gray-800 text-base md:text-lg md:leading-relaxed;
+  @apply font-body font-normal leading-relaxed text-gray-800 text-base bg-slate-200;
 }
 
 .link {
@@ -12,14 +12,14 @@ body {
 
 @layer components {
   .heading-lg {
-    @apply leading-tight text-4xl font-black;
+    @apply font-heading font-thin leading-tight text-5xl;
   }
 
   .heading-md {
-    @apply leading-tight text-2xl font-bold;
+    @apply font-heading font-thin leading-tight text-3xl;
   }
 
   .heading-sm {
-    @apply leading-tight text-xl font-bold;
+    @apply font-heading font-thin leading-tight text-2xl;
   }
 }
