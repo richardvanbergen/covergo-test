@@ -6,6 +6,10 @@ body {
   @apply font-body font-normal leading-relaxed text-gray-800 text-base bg-slate-200;
 }
 
+.typography-plugin {
+  @apply font-normal leading-relaxed prose lg:prose-xl max-w-none prose-headings:font-heading prose-headings:text-xl prose-headings:font-light font-body prose-a:text-blue-400 hover:prose-a:text-blue-700 visited:prose-a:text-blue-900 prose-a:underline prose-a:underline-offset-2 prose-h1:text-5xl prose-h2:text-3xl prose-h3:text-2xl;
+}
+
 .link {
   @apply text-blue-400 hover:text-blue-700 visited:text-blue-900 underline underline-offset-2;
 }
