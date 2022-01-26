@@ -1832,6 +1832,11 @@ pathval@^1.1.1:
   resolved "https://registry.yarnpkg.com/pathval/-/pathval-1.1.1.tgz#8534e77a77ce7ac5a2512ea21e0fdb8fcf6c3d8d"
   integrity sha512-Dp6zGqpTdETdR63lehJYPeIOqpiNBNtc7BpWSLrOje7UaIsE5aY92r/AunQA7rsXvet3lrJ3JnZX29UPTKXyKQ==
 
+phosphor-vue@^4.4.0:
+  version "4.4.0"
+  resolved "https://registry.yarnpkg.com/phosphor-vue/-/phosphor-vue-4.4.0.tgz#d6353c231fde67eb577313107d54a36f3264b7b3"
+  integrity sha512-+7NBvWHgMaCN8AxLYdk5OJOmkTnPXOv5ZbYjHNnFQUrJ7Jg7VWiiFSgLRsnuAQIMNkYmTyWoUU7kspSm3nowVQ==
+
 picocolors@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/picocolors/-/picocolors-1.0.0.tgz#cb5bdc74ff3f51892236eaf79d68bc44564ab81c"
