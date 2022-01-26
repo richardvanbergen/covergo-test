@@ -4,12 +4,15 @@ import ToastNotification from './components/layout/ToastNotification.vue'
 import MainHeader from './components/layout/MainHeader.vue'
 import MainFooter from './components/layout/MainFooter.vue'
 import LayoutContainer from './components/layout/LayoutContainer.vue'
+import MainContent from './components/layout/MainContent.vue'
 </script>
 
 <template>
   <LayoutContainer>
     <MainHeader />
-    <RouterView />
+    <MainContent>
+      <RouterView />
+    </MainContent>
     <MainFooter />
   </LayoutContainer>
 
